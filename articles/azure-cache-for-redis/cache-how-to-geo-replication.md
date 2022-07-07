@@ -200,7 +200,7 @@ To start a customer-initiated failover, first unlink the caches. Then, change yo
 
 ### Can I configure a firewall with geo-replication?
 
-Yes, you can configure a [firewall](./cache-configure.md#firewall) with geo-replication. For geo-replication to function alongside a firewall, ensure that the secondary cache's IP address is added to the primary cache's firewall rules.
+Yes, you can configure a [firewall](./cache-configure.md#firewall) with geo-replication. For geo-replication to function alongside a firewall, ensure that the secondary cache's IP address is added to the primary cache's firewall rules. If you are using a private link, please ensure the correct private link IP of the geo-secondary is added to the firewall rules. 
 
 ## Next steps
 
